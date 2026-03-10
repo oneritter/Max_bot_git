@@ -1,0 +1,34 @@
+# Environment
+.env
+
+# Database
+data/db/*.db
+data/db/*.db-journal
+
+# Uploads
+data/uploads/*
+!data/uploads/.gitkeep
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.venv/
+venv/
+
+# Node
+node_modules/
+dist/
+.vite/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Google credentials
+*credentials*.json
